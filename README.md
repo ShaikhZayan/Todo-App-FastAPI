@@ -1,0 +1,2 @@
+# Todo-App-FastAPI
+About Crud Made Using FASTAPI, NEON POSTGRESQL, STREAMLIT, NEXT.js
