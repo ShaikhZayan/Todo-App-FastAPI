@@ -1,0 +1,34 @@
+INFO:sqlalchemy.engine.Engine:SELECT todo.id AS todo_id, todo.message AS todo_message, todo.status AS todo_status 
+FROM todo
+INFO:sqlalchemy.engine.Engine:[cached since 10.07s ago] {}
+INFO:sqlalchemy.engine.Engine:SELECT todo.id AS todo_id, todo.message AS todo_message, todo.status AS todo_status 
+FROM todo
+INFO:sqlalchemy.engine.Engine:[cached since 28.88s ago] {}
+INFO:sqlalchemy.engine.Engine:SELECT todo.id AS todo_id, todo.message AS todo_message, todo.status AS todo_status 
+FROM todo
+INFO:sqlalchemy.engine.Engine:[cached since 30.67s ago] {}
+INFO:sqlalchemy.engine.Engine:SELECT todo.id AS todo_id, todo.message AS todo_message, todo.status AS todo_status 
+FROM todo 
+WHERE todo.id = %(id_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00076s] {'id_1': 1, 'param_1': 1}
+INFO:sqlalchemy.engine.Engine:INSERT INTO todo (id, message, status) VALUES (%(id)s, %(message)s, %(status)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00069s] {'id': 1, 'message': 'zayan', 'status': False}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT todo.id AS todo_id, todo.message AS todo_message, todo.status AS todo_status 
+FROM todo 
+WHERE todo.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00145s] {'pk_1': 1}
+INFO:sqlalchemy.engine.Engine:SELECT todo.id AS todo_id, todo.message AS todo_message, todo.status AS todo_status 
+FROM todo
+INFO:sqlalchemy.engine.Engine:[cached since 33.81s ago] {}
+INFO:sqlalchemy.engine.Engine:SELECT todo.id AS todo_id, todo.message AS todo_message, todo.status AS todo_status 
+FROM todo
+INFO:sqlalchemy.engine.Engine:[cached since 34.21s ago] {}
+INFO:sqlalchemy.engine.Engine:SELECT todo.id AS todo_id, todo.message AS todo_message, todo.status AS todo_status 
+FROM todo
+INFO:sqlalchemy.engine.Engine:[cached since 58.1s ago] {}
+INFO:sqlalchemy.engine.Engine:SELECT todo.id AS todo_id, todo.message AS todo_message, todo.status AS todo_status 
+FROM todo
+INFO:sqlalchemy.engine.Engine:[cached since 64.07s ago] {}
